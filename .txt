@@ -1,0 +1,49 @@
+weather-app/
+└── backend/
+    └── demo/
+        └── src/
+            └── main/
+                └── java/
+                    └── demo/          ← this matches your package name
+                        ├── WeatherAppApplication.java
+                        ├── controller/
+                        │   └── WeatherController.java
+                        └── service/
+                            └── WeatherService.java
+
+
+
+
+backend/demo/
+└── src/
+    └── main/
+        └── java/
+            └── com/
+                └── example/
+                    └── demo/
+                        ├── WeatherAppApplication.java      ✅ package com.example.demo
+                        ├── controller/
+                        │   └── WeatherController.java      ✅ package com.example.demo.controller
+                        └── service/
+                            └── WeatherService.java         ✅ package com.example.demo.service
+
+
+frontend/
+├── public/
+├── src/
+│   ├── components/
+│   │   └── Weather.js
+│   ├── App.js
+│   ├── index.js
+│   └── App.css
+├── package.json
+
+npx create-react-app frontend
+
+npm install axios
+
+
+
+
+
+
